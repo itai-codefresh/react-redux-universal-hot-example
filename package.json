@@ -43,7 +43,9 @@
       "command": "node ./bin/server.js",
       "env": {
         "NODE_PATH": "./src",
-        "NODE_ENV": "production"
+        "NODE_ENV": "production",
+        "PORT": 8080,
+        "APIPORT": 3030
       }
     },
     "start-prod-api": {
